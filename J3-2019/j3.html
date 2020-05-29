@@ -1,0 +1,68 @@
+<!-- J3 2019 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>J3</title>
+        <meta name="description" content="J3 Problem">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="j3.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1>J3 2019</h1>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label for="no_of_lines">No. of Lines</label>
+                <input type="number" id="no_of_lines" name="no_of_lines" min="1" max="100">
+            </div>
+            <div class="form-group">
+                <label for="line_1">Line 1</label>
+                <input type="text" id="line_1" name="line_1" minlength="1" maxlength="80">
+            </div>
+            <div class="form-group">
+                <label for="line_2">Line 2</label>
+                <input type="text" id="line_2" name="line_2" minlength="1" maxlength="80">
+            </div>
+            <div class="form-group">
+                <label for="line_3">Line 3</label>
+                <input type="text" id="line_3" name="line_3" minlength="1" maxlength="80">
+            </div>
+            <div class="form-group">
+                <label for="line_4">Line 4</label>
+                <input type="text" id="line_4" name="line_4" minlength="1" maxlength="80">
+            </div>
+            <div class="form-group">
+                <label for="line_5">Line 5</label>
+                <input type="text" id="line_5" name="line_5" minlength="1" maxlength="80">
+            </div>
+            <button type="submit" onclick="findResult()" class="btn btn-primary" id="submit_button">Submit</button>
+        </div>
+
+        <div class="container mt-3">
+            <div class="alert alert-success">
+                Output: 
+                <div>
+                    <span id="result_1"></span>
+                </div>
+                <div>
+                    <span id="result_2"></span>
+                </div>
+                <div>
+                    <span id="result_3"></span>
+                </div>
+                <div>
+                    <span id="result_4"></span>
+                </div>
+                <div>
+                    <span id="result_5"></span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
